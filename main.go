@@ -14,7 +14,8 @@ import (
 	_ "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/filters/network/mysql_proxy/v3"
 	_ "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/filters/network/postgres_proxy/v3alpha"
 	_ "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/filters/network/rocketmq_proxy/v3"
-	_ "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/upstreams/http/v3"
+
+	// _ "github.com/envoyproxy/go-control-plane/contrib/envoy/extensions/upstreams/http/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/config/accesslog/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/config/bootstrap/v3"
@@ -154,7 +155,8 @@ import (
 	_ "github.com/envoyproxy/go-control-plane/envoy/service/secret/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/service/tap/v3"
-	_ "github.com/envoyproxy/go-control-plane/envoy/service/trace/v3"
+
+	// _ "github.com/envoyproxy/go-control-plane/envoy/service/trace/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/type/metadata/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/type/tracing/v3"
