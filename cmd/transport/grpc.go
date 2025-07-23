@@ -6,8 +6,8 @@ import (
 	"time"
 
 	csdspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
-	"github.com/grpc-ecosystem/grpcdebug/cmd/config"
-	"github.com/grpc-ecosystem/grpcdebug/cmd/verbose"
+	"github.com/mmilos3vic/grpcdebug/cmd/config"
+	"github.com/mmilos3vic/grpcdebug/cmd/verbose"
 	"google.golang.org/grpc"
 	zpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
 	"google.golang.org/grpc/credentials"

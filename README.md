@@ -1,6 +1,6 @@
 # grpcdebug
 [![Go Report
-Card](https://goreportcard.com/badge/github.com/grpc-ecosystem/grpcdebug)](https://goreportcard.com/report/github.com/grpc-ecosystem/grpcdebug)
+Card](https://goreportcard.com/badge/github.com/mmilos3vic/grpcdebug)](https://goreportcard.com/report/github.com/mmilos3vic/grpcdebug)
 
 grpcdebug is a command line interface focusing on simplifying the debugging
 process of gRPC applications. grpcdebug fetches the internal states of the gRPC
@@ -72,7 +72,7 @@ Use "grpcdebug <target address>  [command] --help" for more information about a 
 ### Use Compiled Binaries
 
 The download links of the binaries can be found at
-https://github.com/grpc-ecosystem/grpcdebug/releases. You can find the
+https://github.com/mmilos3vic/grpcdebug/releases. You can find the
 precompiled artifacts for `macOS`/`Linux`/`Windows`.
 
 ### Compile From Source
@@ -83,7 +83,7 @@ https://golang.org/doc/install.
 You can install the `grpcdebug` tool using command:
 
 ```shell
-go install -v github.com/grpc-ecosystem/grpcdebug@latest
+go install -v github.com/mmilos3vic/grpcdebug@latest
 ```
 
 You can check your Golang version with:
@@ -102,7 +102,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 If certain commands are confusing, please try to use `-h` to get more context.
 Suggestions and ideas are welcome, please post them to
-https://github.com/grpc-ecosystem/grpcdebug/issues!
+https://github.com/mmilos3vic/grpcdebug/issues!
 
 If you haven't got your gRPC application instrumented, feel free to try out the
 mocking `testserver` which implemented admin services.

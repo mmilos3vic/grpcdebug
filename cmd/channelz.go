@@ -9,8 +9,8 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/golang/protobuf/ptypes"
 	timestamppb "github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/grpc-ecosystem/grpcdebug/cmd/transport"
-	"github.com/grpc-ecosystem/grpcdebug/cmd/verbose"
+	"github.com/mmilos3vic/grpcdebug/cmd/transport"
+	"github.com/mmilos3vic/grpcdebug/cmd/verbose"
 	"github.com/spf13/cobra"
 	zpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
 )
