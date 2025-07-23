@@ -1,4 +1,4 @@
-module github.com/grpc-ecosystem/grpcdebug
+module github.com/mmilos3vic/grpcdebug
 
 go 1.23.0
 
